@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva , sans-serif;
+}
+body{
+	background-image: url('C:\\Users\\samarth joshi\\Documents\\my web\\img\\background.jpg');
+}
+
+body h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	text-shadow: 0 0 8px white;
+	border: 5px solid white;
+	border-radius: 50px;
+	padding: 10px;
+	margin: 5px;
+}
+.phone img{
+	border: 5px solid black;
+	border-radius: 80px;
+	float: left;
+	display: table;
+	width: 48%;
+	height: 550px;
+	margin: 5px;
+
+}
+.tab img{
+	border: 5px solid black;
+	border-radius: 80px;
+	float: left;
+	display: table;
+	width: 48%;
+	height: 550px;
+	margin: 5px;
+}

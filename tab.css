@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.parent{
+	background-image: url('C:\\Users\\samarth joshi\\Documents\\my web\\img\\background.jpg');
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	height: 450px;
+	width: 1200px;
+	border: 8px solid black;
+	border-radius: 10px;
+	padding: 50px;
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+.img1 {
+  float: left;
+  width: 25%;
+  padding: 8px;
+}
+
+
+.parent::after {
+  content: "";
+  clear: both;
+  display: table;
+}
